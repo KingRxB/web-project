@@ -22,6 +22,8 @@
     <title>RTK</title>
   </head>
   <body>
+    <div id="preloader">
+    </div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark position-fix fixed-top">
       <div class="container">
@@ -75,8 +77,13 @@
     <h1 align="center">Unlock Boundless Creativity with</h1>
     <h1>RKT Camera Taggerang!</h1>
     <br /><br />
-<section h-20>
-  <img src="img/foto2.jpg" alt="">
+    <section style="background-image: url(img/foto2.jpg);">
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+    </section>
     <!-- Service Section -->
     <section id="service">
       <div class="container">
@@ -215,6 +222,13 @@
           <!-- Copyright -->
         </footer>
         <!-- Footer -->
-    <!-- Akhir Footer -->
+    <!-- Akhir Footer --> 
+        <!-- js -->
+        <script>
+          var loader = document.getElementById("preloader");
+          window.addEventListener("load", function(){
+            loader.style.display = "none";
+          })
+        </script>
   </body>
 </html>
